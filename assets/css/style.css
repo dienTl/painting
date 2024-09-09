@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.tool{
+    background: #98b9cf;
+    display: flex;
+    align-items: center;
+}
+.tool >*{
+    height: 40px;
+    width: 40px;
+    background: #dadada;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+#save{
+    margin-left: auto;
+}
+.avv{
+    display: flex;
+    justify-content: center;
+}
+.a{
+    border:  3px solid black;
+}
+#save{
+    padding-top: 10px;
+    padding-left: 10px;
+}
